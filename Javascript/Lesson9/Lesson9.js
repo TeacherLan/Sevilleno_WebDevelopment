@@ -12,6 +12,6 @@ function change(){
 
 function submitForm(){
     var age = document.getElementById("age").value;
-    document.getElementById("output").innerHTML = "Hello Maxinne you are " + age + " years old";
+    document.getElementById("output").innerHTML = "Hello Maxinne you are <b>" +  age  + "</b> years old";
     console.log(age);
 }
